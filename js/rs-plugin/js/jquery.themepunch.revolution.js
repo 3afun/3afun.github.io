@@ -291,11 +291,11 @@
 									container.append('<div class="tp-loader"></div>');
 
 									// RESET THE TIMER
-//									if (container.find('.tp-bannertimer').length==0) container.append('<div class="tp-bannertimer" style="visibility:hidden"></div>');
-//									var bt=container.find('.tp-bannertimer');
-//									if (bt.length>0) {
-//										bt.css({'width':'0%'});
-//									};
+									if (container.find('.tp-bannertimer').length==0) container.append('<div class="tp-bannertimer" style="visibility:hidden"></div>');
+									var bt=container.find('.tp-bannertimer');
+									if (bt.length>0) {
+										bt.css({'width':'0%'});
+									};
 
 
 									// WE NEED TO ADD A BASIC CLASS FOR SETTINGS.CSS
@@ -592,7 +592,7 @@
 			var nextli = container.find('>ul >li:eq('+opt.next+')');
 
 			animateTheCaptions(nextli, opt,true);
-			restartBannerTimer(opt,container);
+//			restartBannerTimer(opt,container);
 
 		}
 
@@ -1580,7 +1580,7 @@
 							nextli.waitForImages(function() {
 
 									defimg.data('lazydone',1);
-									setTimeout(function() {restartBannerTimer(opt,container)},190);
+//									setTimeout(function() {restartBannerTimer(opt,container)},190);
 
 									setSize(defimg,opt);
 									setBulPos(container,opt);
