@@ -1,9 +1,9 @@
-//============ Navmenu ============//
-$(document).ready(function() {
-
-$('.top-nav li').localScroll();
-
-});
+//============ Delete Bugs Navmenu ============//
+//$(document).ready(function() {
+//
+//$('.top-nav li').localScroll();
+//
+//});
 
 
 //============ Fixed header ============//
@@ -57,20 +57,20 @@ $(function () {
 	filterList.init();
 });	
 
-    $(document).ready(function() {
-      $("#owl-demo").owlCarousel({
+$(document).ready(function() {
+  $("#owl-demo").owlCarousel({
 
-      navigation : false,
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem : true
+  navigation : false,
+  slideSpeed : 300,
+  paginationSpeed : 400,
+  singleItem : true
 
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
+  // "singleItem:true" is a shortcut for:
+  // items : 1,
+  // itemsDesktop : false,
+  // itemsDesktopSmall : false,
+  // itemsTablet: false,
+  // itemsMobile : false
 
-      });
-    });
+  });
+});
